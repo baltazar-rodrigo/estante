@@ -10,5 +10,5 @@
 | CP-006 | RF-006 | Validar actualización de registros existentes. | Conexión activa y tabla con registros existentes. | 1. Ingresar comando SQL UPDATE sobre un registro válido.<br>2. Ejecutar consulta.<br>3. Consultar la tabla. | El sistema actualiza el registro y los cambios se reflejan en la tabla. |
 | CP-007 | RF-007 | Validar eliminación de registros en la base de datos. | Conexión activa y tabla con registros existentes. | 1. Ingresar comando SQL DELETE sobre un registro válido.<br>2. Ejecutar consulta.<br>3. Consultar la tabla. | El sistema elimina el registro y ya no aparece en la tabla. |
 | CP-008 | RF-008 | Validar manejo de errores en consultas SQL. | Conexión activa a la base de datos. | 1. Ingresar consulta SQL inválida (ej. SELECT * FROM tabla_inexistente).<br>2. Ejecutar consulta.<br>3. Revisar salida. | El sistema muestra mensaje de error claro indicando la causa del fallo. |
-| CP-009 | RF-009 |||||
+| CP-009 | RF-009 | Validar selección de diferentes bases de datos. | Servidor con múltiples bases de datos disponibles. | 1. Conectar al servidor.<br>2. Seleccionar otra base de datos distinta a la actual.<br>3. Consultar tablas de la nueva base. | El sistema cambia de base de datos y muestra las tablas correspondientes. |
 | CP-010 | RF-010 |||||
