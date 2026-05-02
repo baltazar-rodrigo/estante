@@ -30,4 +30,4 @@ Clasificación lógica de los libros.
 | Nombre Campo | Tipo de Dato | Descripción | Restricciones |
 | :--- | :--- | :--- | :--- |
 | `id_categoria` | INT | Identificador de la categoría. | PK, AUTO_INCREMENT |
-| `nombre` | VARCHAR(100) | Nombre de la categoría (Ingeniería, etc.). | NOT NULL |
+| `nombre` | VARCHAR(100) | Nombre de la categoría (Ingeniería, etc.) | NOT NULL |
